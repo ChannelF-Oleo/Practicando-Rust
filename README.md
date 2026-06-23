@@ -45,8 +45,4 @@ Repite `cd <proyecto>` + `cargo run` para los demás proyectos.
 ## Notas
 
 - Cada carpeta es un proyecto independiente (no es un workspace cargo).
-- Si quieres que agregue un `Cargo.toml` de workspace o scripts para ejecutar todo, dímelo y lo preparo.
 
----
-
-Archivo actualizado automáticamente.
