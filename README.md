@@ -1,44 +1,52 @@
 # 🦀 Mis Primeras Prácticas en Rust
 
-¡Hola! Bienvenido/a a mi repositorio de aprendizaje de **Rust**. Este es el lugar donde guardo mis primeros pasos en el lenguaje, desde el clásico "Hola Mundo" hasta pequeños programas interactivos. 
-
-Mi objetivo actual es entender la sintaxis básica, el manejo de variables, la entrada/salida por consola y el control de flujo, bucles, validacion, las estructuras y sus implementaciones,los enum y los tipos complejos. ¡Voy de nivel **ultra básico** a paso firme! 🚀
+Este repositorio contiene varios proyectos pequeños con los que practico conceptos básicos de Rust (entrada/salida, control de flujo, manejo de errores, crates, estructuras y más).
 
 ---
 
-## 🛠️ Tecnologías Utilizadas
+## Tecnologías
 
-* **Lenguaje:** Rust 🦀
-* **Gestor de paquetes / Build tool:** Cargo
-
----
-
-## 📂 Prácticas Incluidas
-
-Hasta el momento, el repositorio cuenta con los siguientes 4 proyectos:
-
-### 1. 🌍 Hello World (`hello_world`)
-* **Descripción:** El punto de partida de todo programador. Una simple impresión en consola para verificar que el entorno de desarrollo está bien configurado.
-* **Conceptos aprendidos:** Estructura básica de un programa en Rust, la macro `println!`.
-
-### 2. 🎲 Juego de Adivinanzas (`adivinanzas`)
-* **Descripción:** Un juego interactivo donde la computadora genera un número aleatorio y el usuario tiene que adivinarlo con pistas de "muy alto" o "muy bajo".
-* **Conceptos aprendidos:** Uso de crates externos (`rand`), manejo de entrada de usuario (`std::io`), bucles (`loop`) y manejo de errores/coincidencias con `match`.
-
-### 3. 💰 Sistema de Ventas (`ventas`)
-* **Descripción:** Una pequeña simulación ver inventario, crear productos o aplicar descuentos a los productos existentes.
-* **Conceptos aprendidos:** Operaciones matemáticas, condicionales (`if/else`), tipos de datos flotantes (`f32`/`f64`), formateo de texto, bucles loop, estructuras, implementaciones y vectores.
-
-### 4. 🧮 Calculadora (`calculadora`)
-* **Descripción:** Una calculadora por consola que realiza las operaciones básicas (suma, resta, multiplicación y división) pidiendo los números y la operación al usuario.
-* **Conceptos aprendidos:** Conversión de tipos de datos (parsing de `String` a número), funciones básicas y manejo de condiciones, loop y match.
+- Lenguaje: Rust
+- Herramienta de compilación: Cargo
 
 ---
 
-## 🚀 Cómo Ejecutar los Proyectos
+## Proyectos incluidos
 
-Asegúrate de tener instalado Rust y Cargo en tu sistema. Si no los tienes, puedes instalarlos desde [rustup.rs](https://rustup.rs/).
+Los proyectos están en carpetas independientes en la raíz del repositorio:
 
-1. Clona este repositorio:
-   ```bash
-   git clone (https://github.com/ChannelF-Oleo/Practicando-Rust)
+- `hello_cargo` — Ejemplo "Hola mundo" y verificación del entorno.
+- `adivinanza_juego` — Juego para adivinar un número (usa `rand`).
+- `ahorcado` — Implementación básica del juego del ahorcado.
+- `calculadora` — Calculadora de consola (suma, resta, mult, div).
+- `ventas` — Simulación sencilla de operaciones sobre productos/ventas.
+
+---
+
+## Cómo ejecutar
+
+1. Instala Rust (si no lo tienes):
+
+```bash
+curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
+```
+
+2. Compilar y ejecutar un proyecto (ejemplo `calculadora`):
+
+```bash
+cd calculadora
+cargo run
+```
+
+Repite `cd <proyecto>` + `cargo run` para los demás proyectos.
+
+---
+
+## Notas
+
+- Cada carpeta es un proyecto independiente (no es un workspace cargo).
+- Si quieres que agregue un `Cargo.toml` de workspace o scripts para ejecutar todo, dímelo y lo preparo.
+
+---
+
+Archivo actualizado automáticamente.
