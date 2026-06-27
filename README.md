@@ -20,6 +20,7 @@ Los proyectos están en carpetas independientes en la raíz del repositorio:
 - `ahorcado` — Implementación básica del juego del ahorcado.
 - `calculadora` — Calculadora de consola (suma, resta, mult, div).
 - `ventas` — Simulación sencilla de operaciones sobre productos/ventas.
+- `hero_game` — Juego RPG de consola: crea héroes con clases (Guerrero, Mago, Arquero), ataques y sistema de combate (usa `enum`, `struct` e `impl`).
 
 ---
 
